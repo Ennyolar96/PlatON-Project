@@ -8,6 +8,19 @@ body{
     position: relative;
     overflow-x: hidden;
 }
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+img.brand-logo{
+    width: 30px;
+    height: 30px;
+}
+small.brandcom{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
 
 /* Radial Out */
 .hvr-radial-out {
@@ -31,7 +44,7 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    background: #000;
+    background: #e17;
     border-radius: 100%;
     -webkit-transform: scale(0);
     transform: scale(0);
@@ -60,14 +73,15 @@ body{
     border-radius: 5px;
 }
 #brand{
-    background-color: #f0f0f0;
+    background-color: #0ce;
     padding: 103px 30px;
 }
 .firstheading h1{
     font-weight: bold;
     font-size: 3rem;
-    width: 500px;
+    width: 600px;
     padding: 1% 0;
+    color: #000;
 }
 .firstheading p{
     padding: 1% 0;
@@ -76,6 +90,21 @@ body{
     text-align: justify;
     line-break: auto;
 }
+.btn-color{
+  background-color: #e17;
+  color: #fff; 
+}
+
+.btn-color:hover{
+    color: #fff; 
+  }
+
+.btn-color-1{
+    outline-color: #e17;
+   outline-style: solid;
+   outline-width: .5px;
+    color: #000;
+  }
 .md-md{
     margin: 0;
 }
@@ -85,7 +114,7 @@ body{
     padding: 3% 5%;
 }
 #upcoming_event{
-    background-color: #f0f0f0;
+    background-color: #0ce;
 }
 h2{
     text-align: center;
@@ -97,6 +126,7 @@ h2{
     box-shadow: 0 0 2px #000;
     margin: 10px 0;
     border-radius: 6px;
+    background-color: #fff;
 }
 
 .first_event img{
@@ -121,7 +151,7 @@ h2{
  width: 50%;
  height: 20px;
  padding: 22px;
- border: 2px solid #000;
+ border: 2px solid #fd5;
 }
 .news_div{
     margin: 0 200px; 
@@ -159,7 +189,7 @@ h6{
     }
     .firstheading h1{
         font-size: 2rem;
-        width: 420px;
+        width: 385px;
     }
     .firstheading p{
         font-size: .9rem;
@@ -189,9 +219,18 @@ h6{
     .first p{
         width: 200%;
     }
+    .navbar-brand{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    small.brandcom{
+        font-size: 0.6rem;
+        font-weight: 500;
+    }
     .firstheading h1{
         font-size: 1.5rem;
-        width: 300px;
+        width: 280px;
     }
     .firstheading p{
         font-size: .9rem;
@@ -202,4 +241,7 @@ h6{
         width: 75%;
         margin: 0 0 10px 0;
        }
+       #brand{
+        padding: 113px 30px;
+    }
 }
